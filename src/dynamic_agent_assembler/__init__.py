@@ -12,6 +12,7 @@ from dynamic_agent_assembler.vector_search import VectorSearchEngine, SearchResu
 from dynamic_agent_assembler.task_analyzer import TaskAnalyzer, Task, SubTask, TaskPriority, TaskStatus
 from dynamic_agent_assembler.agent_assembler import AgentAssembler, AgentRole, TeamMember, TeamStrategy
 from dynamic_agent_assembler.team_manager import TeamManager, AgentTeam, TeamType, TeamStatus as TeamStatusEnum, TeamCache
+from dynamic_agent_assembler.executor import AgentExecutor, ExecutionContext, ExecutionStatus, ExecutionMode, SubTaskResult, TaskExecution
 
 __version__ = "0.1.0"
 
@@ -37,4 +38,10 @@ __all__ = [
     "TeamType",
     "TeamStatusEnum",
     "TeamCache",
+    "AgentExecutor",
+    "ExecutionContext",
+    "ExecutionStatus",
+    "ExecutionMode",
+    "SubTaskResult",
+    "TaskExecution",
 ]
